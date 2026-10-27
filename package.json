@@ -1,0 +1,25 @@
+{
+  "name": "moex-terminal-screener-pro",
+  "version": "17.15.0",
+  "description": "Профессиональный скринер акций Мосбиржи (5m, 15m, 1h, 4h) для Веб-Терминала Т-Банка",
+  "main": "moex_screener.user.js",
+  "scripts": {
+    "test": "node --check moex_screener.user.js",
+    "lint": "node -e \"console.log('Validating JS syntax...'); require('child_process').execSync('node --check moex_screener.user.js'); console.log('Syntax OK!');\""
+  },
+  "keywords": [
+    "moex",
+    "tinkoff",
+    "t-bank",
+    "terminal",
+    "screener",
+    "tampermonkey",
+    "userscript",
+    "rsi",
+    "stochastic",
+    "rvol",
+    "trading"
+  ],
+  "author": "Swoldier",
+  "license": "MIT"
+}
